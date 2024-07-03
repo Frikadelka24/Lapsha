@@ -1,0 +1,42 @@
+def cook_spaghetti_with_meat_sauce():
+    # Ingredients
+    ingredients = {
+        "spaghetti": "200g",
+        "ground beef": "250g",
+        "onion": "1, chopped",
+        "garlic": "2 cloves, minced",
+        "tomato sauce": "400g",
+        "olive oil": "2 tbsp",
+        "salt": "to taste",
+        "pepper": "to taste",
+        "basil": "1 tsp, dried",
+        "oregano": "1 tsp, dried",
+        "parmesan cheese": "to serve",
+    }
+
+    # Steps to cook
+    steps = [
+        "1. Bring a large pot of salted water to a boil.",
+        "2. Add spaghetti to the boiling water and cook according to package instructions until al dente.",
+        "3. While the spaghetti is cooking, heat olive oil in a large pan over medium heat.",
+        "4. Add chopped onion and minced garlic to the pan. Sauté until the onion is translucent.",
+        "5. Add the ground beef to the pan. Cook until the beef is browned.",
+        "6. Stir in the tomato sauce, basil, oregano, salt, and pepper.",
+        "7. Reduce the heat and let the sauce simmer for about 15-20 minutes.",
+        "8. Drain the cooked spaghetti and add it to the pan with the meat sauce. Toss to combine.",
+        "9. Serve the spaghetti with meat sauce on plates and sprinkle with parmesan cheese.",
+        "10. Enjoy your meal!"
+    ]
+
+    # Displaying ingredients
+    print("Ingredients:")
+    for ingredient, amount in ingredients.items():
+        print(f"{amount} {ingredient}")
+
+    # Displaying steps
+    print("\nSteps to cook Spaghetti with Meat Sauce:")
+    for step in steps:
+        print(step)
+
+if __name__ == "__main__":
+    cook_spaghetti_with_meat_sauce()
